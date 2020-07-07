@@ -1,5 +1,7 @@
 package level1;
 
+//주어진 숫자 내에서 소수의 갯수 구하
+
 class PNum {
 
 	public static void main(String[] args) {
