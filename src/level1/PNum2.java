@@ -8,9 +8,12 @@ class PNum2 {
 
 	    public static void main(String args[]) {
 	        Scanner sc = new Scanner(System.in);
+	        
 	        int n = sc.nextInt();
 	        int m = sc.nextInt();
+	        
 	        boolean[] check = new boolean[m+1];
+	        
 	        check[0] = check[1] = true;
 	        
 	        for (int i=2; i*i <= m; i++) {
