@@ -5,6 +5,9 @@ def solution(queue1, queue2):
     tot1, tot2 = sum(q1), sum(q2)
     total = tot1 + tot2
     limit = len(q1) * 3
+    
+    if total % 2 != 0:
+        return -1
 
     while(True):
         if tot1 > tot2:
